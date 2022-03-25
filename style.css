@@ -1,0 +1,97 @@
+body{
+  
+  background-color: #74959A;
+  margin:4em;
+  color: #151D3B; 
+  font-family: helvetica, arial, sans-serif;
+} 
+
+
+h1 {
+  font-size: 3rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 5px 0 black;
+  
+}
+
+button {
+  padding: 10px;
+  border-radius:10px;
+  width:70px;
+  height:50px;
+  margin:2px 2PX;
+  font-size: 16px;
+  cursor:pointer;
+  background-color: #F7F7F7; 
+  color:black;
+
+  
+}
+
+.gamebtn{
+  background-color:#74959A;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:4px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+    background: orange;
+   border: 10px solid #404B69;
+  border-radius: 10px;
+}
+#button2 {
+  background:lightblue;
+   border: 10px solid #404B69;
+  border-radius: 10px;
+}
+
+#button3 {
+  background:pink;
+  border: 10px solid #404B69;
+  border-radius: 10px;
+
+}
+#button4{
+  background:lightyellow;
+   border: 10px solid #404B69;
+  border-radius: 10px;
+}
+#button5 {
+  background:#C5D8A4;
+   border: 10px solid #404B69;
+  border-radius: 10px;
+}
+#button6 {
+  background:#4D77FF;
+   border: 10px solid #404B69;
+  border-radius: 10px;
+}
+
+#button1:active, #button1.lit{
+    background: url("https://cdn.glitch.global/568f7760-4dc8-4370-895f-210529c44a6c/image1.jpg?v=1647665414031");
+}
+
+#button2:active, #button2.lit{
+  background: url("https://cdn.glitch.global/568f7760-4dc8-4370-895f-210529c44a6c/image4.jpg?v=1647665527954");
+}
+#button3:active, #button3.lit{
+  background: url("https://cdn.glitch.global/568f7760-4dc8-4370-895f-210529c44a6c/image5.jpg?v=1647665803390");
+}
+#button4:active, #button4.lit{
+  background: url("https://cdn.glitch.global/568f7760-4dc8-4370-895f-210529c44a6c/image6.jpg?v=1647666229822");
+}
+#button5:active, #button5.lit{
+  background: url("https://cdn.glitch.global/568f7760-4dc8-4370-895f-210529c44a6c/image3.webp?v=1647664894932");
+}
+#button6:active, #button6.lit{
+  background: url("https://cdn.glitch.global/568f7760-4dc8-4370-895f-210529c44a6c/image3.jpg?v=1647665166305");
+}
+
+
